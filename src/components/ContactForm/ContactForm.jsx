@@ -4,7 +4,7 @@ import { useId } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { MdPersonAdd } from 'react-icons/md';
 import * as Yup from 'yup';
-import { addContact } from '../../redux/contactsOps';
+import { addContact } from '../../redux/contacts/operations';
 
 const initialValues = {
   name: '',
