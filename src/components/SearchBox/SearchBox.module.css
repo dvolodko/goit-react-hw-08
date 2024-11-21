@@ -4,7 +4,10 @@
   justify-content: center;
   align-items: flex-start;
   min-width: 320px;
+  max-width: 480px;
   margin-bottom: 16px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .searchInput {
